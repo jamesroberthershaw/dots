@@ -1,0 +1,11 @@
+[2021-10-15 16:03:27.647] [main] [error] TypeError: performance.getEntriesByType is not a function or its return value is not iterable
+    at getMarks (/usr/lib/code-git/out/vs/base/common/performance.js:1:692)
+    at Ze.openInBrowserWindow (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:47645)
+    at Ze.doOpenEmpty (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:37822)
+    at Ze.doOpen (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:37070)
+    at Ze.open (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:32433)
+    at ut.openFirstWindow (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:67663)
+    at /usr/lib/code-git/out/vs/code/electron-main/main.js:77:59037
+    at t.invokeFunction (/usr/lib/code-git/out/vs/code/electron-main/main.js:29:319)
+    at ut.startup (/usr/lib/code-git/out/vs/code/electron-main/main.js:77:59013)
+    at async ie.startup (/usr/lib/code-git/out/vs/code/electron-main/main.js:79:2140)

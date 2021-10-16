@@ -1,0 +1,1512 @@
+!SESSION 2021-10-12 10:00:59.012 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Command-line arguments:  -data /home/jameshershaw/.config/Code/User/workspaceStorage/461de979bfa1bfc838965216c4879dbf/redhat.java/jdt_ws
+
+This is a continuation of log file /home/jameshershaw/.config/Code/User/workspaceStorage/461de979bfa1bfc838965216c4879dbf/redhat.java/jdt_ws/.metadata/.bak_0.log
+Created Time: 2021-10-12 10:43:30.734
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.734
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.734
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.831
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.832
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.935
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:30.944
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.393
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.393
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.428
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.429
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.437
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.437
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.478
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.478
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.478
+!MESSAGE Validated 4. Took 93 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.700
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.762
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:31.769
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:32.066
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:32.167
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:32.172
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:32.527
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:37.630
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:37.635
+!MESSAGE >> workspace/executeCommand vscode.java.isOnClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:37.716
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.728
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.729
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.745
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.748
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.748
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:38.758
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:43:39.295
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:01.992
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:01.993
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:02.060
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:02.302
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:02.440
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.351
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.499
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.507
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.554
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.581
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.718
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.769
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.769
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.868
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:03.904
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.008
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.017
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.467
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.467
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.501
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.501
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.509
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.510
+!MESSAGE 2 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.534
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.534
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.534
+!MESSAGE Validated 4. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.541
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.728
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.779
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.780
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.877
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.893
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:04.995
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.010
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.386
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.457
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.457
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.487
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.487
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.495
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.495
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.528
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.528
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.528
+!MESSAGE Validated 4. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.787
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:05.870
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.111
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.402
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.598
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.648
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.648
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.748
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.753
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.855
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:06.864
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.109
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.300
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.351
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.351
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.450
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.459
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.561
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.570
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.976
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:07.976
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.006
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.007
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.016
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.016
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.065
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.065
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.065
+!MESSAGE Validated 4. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.274
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.330
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.335
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.635
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.734
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:08.739
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:09.055
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:44:55.475
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:45:43.651
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:46:28.952
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:46:30.058
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:48:48.914
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:48:52.922
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:48:53.462
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:15.938
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.125
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.324
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.376
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.377
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.408
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.600
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.650
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.651
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.749
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.758
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.861
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:17.872
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.321
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.321
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.359
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.359
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.369
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.369
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.404
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.404
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.404
+!MESSAGE Validated 4. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.435
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.442
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.626
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.742
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.840
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:18.850
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:52:19.731
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:53.483
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.280
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.477
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.528
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.528
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.614
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.805
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.855
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.856
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.955
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:54.964
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.066
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.075
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.526
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.526
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.559
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.559
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.567
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.567
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.598
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.598
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.598
+!MESSAGE Validated 4. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.686
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.693
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.825
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:55.993
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:56.093
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:56.103
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:54:56.757
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:27.422
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:28.783
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:28.972
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.024
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.024
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.122
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.133
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.183
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.201
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.376
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.426
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.426
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.527
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.534
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.635
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.645
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.968
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:29.975
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.098
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.098
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.127
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.127
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.134
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.135
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.164
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.164
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.164
+!MESSAGE Validated 4. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.274
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.373
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.378
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:30.394
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:56:31.259
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:37.346
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:38.965
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.592
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.782
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.834
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.834
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.932
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:39.942
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.044
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.058
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.453
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.453
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.487
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.488
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.495
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.495
+!MESSAGE 2 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.514
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.515
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.515
+!MESSAGE Validated 4. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:40.776
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.351
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.543
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.593
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.594
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.697
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.702
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.755
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.763
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.932
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:41.938
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.165
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.165
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.206
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.206
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.217
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.217
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.271
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.277
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.277
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.277
+!MESSAGE Validated 4. Took 121 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.442
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.448
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.497
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 10:58:42.966
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:00:31.167
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:05.036
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:07.883
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:08.972
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.162
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.176
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.372
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.423
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.423
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.523
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.526
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.634
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:09.658
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.043
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.043
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.076
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.076
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.085
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.085
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.105
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.106
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.107
+!MESSAGE Validated 4. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.344
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.748
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:10.755
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:11.055
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:11.155
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:11.165
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:01:11.478
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:37.037
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.529
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.581
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.581
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.627
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.818
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.869
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.869
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.968
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:38.977
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.080
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.089
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.178
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.186
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.488
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.490
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.490
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.552
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.552
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.559
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.560
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.587
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.587
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.587
+!MESSAGE Validated 4. Took 105 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.588
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.594
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:02:39.858
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:07.456
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:07.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.177
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.232
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.232
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.326
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.340
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.399
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.416
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.474
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.668
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.718
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.718
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.818
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.826
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.928
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:08.947
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.245
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.252
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.337
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.337
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.378
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.379
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.387
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.387
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.411
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.411
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.411
+!MESSAGE Validated 4. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.554
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.645
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.655
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:09.663
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:04:10.356
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:39.811
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.252
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.445
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.495
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.496
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.594
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.603
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.616
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.633
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.762
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:40.855
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.047
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.097
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.098
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.197
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.207
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.258
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.269
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.648
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.654
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.680
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.680
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.822
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.822
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.831
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.831
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.864
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.864
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.864
+!MESSAGE Validated 4. Took 202 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:41.966
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:42.063
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:42.068
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:42.091
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:05:42.805
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:18.266
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.116
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.207
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.403
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.453
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.454
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.555
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.557
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.659
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:19.668
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.095
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.102
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.127
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.128
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.194
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.195
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.203
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.203
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.242
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.243
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.244
+!MESSAGE Validated 4. Took 139 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.401
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.501
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.506
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:11:20.627
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:14.051
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:15.476
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.457
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.654
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.707
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.707
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.805
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.808
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.910
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:16.921
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.120
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.312
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.362
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.363
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.462
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.470
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.573
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.580
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.907
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:17.914
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.033
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.034
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.063
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.064
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.071
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.071
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.103
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.103
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.103
+!MESSAGE Validated 4. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.214
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.314
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.322
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:18.331
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:15:19.116
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:27.392
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:28.845
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.041
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.093
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.093
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.195
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.206
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.375
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.425
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.451
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.525
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.557
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.659
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.671
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:29.671
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.099
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.109
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.127
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.128
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.168
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.168
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.176
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.176
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.203
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.203
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.203
+!MESSAGE Validated 4. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.406
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.434
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.506
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:30.515
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:16:31.315
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:52.806
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:53.666
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:53.873
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.065
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.115
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.116
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.215
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.223
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.326
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.338
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.736
+!MESSAGE begin problem for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.736
+!MESSAGE 0 problems reported for /TOAHarvester.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.775
+!MESSAGE begin problem for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.775
+!MESSAGE 0 problems reported for /NodeEntity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.787
+!MESSAGE begin problem for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.787
+!MESSAGE 1 problems reported for /SimulationRunner.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.815
+!MESSAGE begin problem for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.815
+!MESSAGE 2 problems reported for /NetworkSimulationModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:54.816
+!MESSAGE Validated 4. Took 90 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:55.047
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.584
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.590
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.890
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.965
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.989
+!MESSAGE >> workspace/executeCommand vscode.java.test.findTestTypesAndMethods
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:18:56.994
+!MESSAGE >> workspace/executeCommand vscode.java.test.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:37.439
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:43.176
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:52.407
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:58.476
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:58.496
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:59.499
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:59.499
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-12 11:22:59.505
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

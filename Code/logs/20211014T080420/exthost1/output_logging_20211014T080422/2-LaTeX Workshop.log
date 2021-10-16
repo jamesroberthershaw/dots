@@ -1,0 +1,730 @@
+[08:04:22] Initializing LaTeX Workshop.
+[08:04:22] Extension root: /home/jameshershaw/.vscode/extensions/james-yu.latex-workshop-8.20.2
+[08:04:22] $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/jameshershaw/.config/bspwm
+[08:04:22] $SHELL: /usr/bin/fish
+[08:04:22] vscode.env.appName: Visual Studio Code
+[08:04:22] vscode.env.remoteName: undefined
+[08:04:22] vscode.env.uiKind: 1
+[08:04:22] latex-workshop.bind.enter.key: true
+[08:04:22] latex-workshop.docker.enabled: false
+[08:04:22] latex-workshop.docker.image.latex: ""
+[08:04:22] latex-workshop.intellisense.package.enabled: true
+[08:04:22] latex-workshop.intellisense.update.aggressive.enabled: false
+[08:04:22] latex-workshop.intellisense.update.delay: 1000
+[08:04:22] latex-workshop.latex.autoBuild.run: "onFileChange"
+[08:04:22] latex-workshop.latex.outDir: "%DIR%"
+[08:04:22] latex-workshop.latex.recipes: [
+ {
+  "name": "latexmk 🔃",
+  "tools": [
+   "latexmk"
+  ]
+ },
+ {
+  "name": "latexmk (latexmkrc)",
+  "tools": [
+   "latexmk_rconly"
+  ]
+ },
+ {
+  "name": "latexmk (lualatex)",
+  "tools": [
+   "lualatexmk"
+  ]
+ },
+ {
+  "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+  "tools": [
+   "pdflatex",
+   "bibtex",
+   "pdflatex",
+   "pdflatex"
+  ]
+ },
+ {
+  "name": "Compile Rnw files",
+  "tools": [
+   "rnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "Compile Jnw files",
+  "tools": [
+   "jnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "tectonic",
+  "tools": [
+   "tectonic"
+  ]
+ }
+]
+[08:04:22] latex-workshop.latex.tools: [
+ {
+  "name": "latexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-pdf",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "lualatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-lualatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "latexmk_rconly",
+  "command": "latexmk",
+  "args": [
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "pdflatex",
+  "command": "pdflatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "bibtex",
+  "command": "bibtex",
+  "args": [
+   "%DOCFILE%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "rnw2tex",
+  "command": "Rscript",
+  "args": [
+   "-e",
+   "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2tex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2texmintex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "tectonic",
+  "command": "tectonic",
+  "args": [
+   "--synctex",
+   "--keep-logs",
+   "%DOC%.tex"
+  ],
+  "env": {}
+ }
+]
+[08:04:22] latex-workshop.viewer.pdf.internal.keyboardEvent: "auto"
+[08:04:22] Creating a new file watcher.
+[08:04:22] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[08:04:22] Creating PDF file watcher.
+[08:04:22] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{}}
+[08:04:22] Creating Bib file watcher.
+[08:04:22] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[08:04:22] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[08:04:22] [Server] Creating LaTeX Workshop http and websocket server.
+[08:04:22] LaTeX Workshop initialized.
+[08:04:22] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[08:04:22] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[]}
+[08:04:22] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[08:04:22] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[08:04:22] [Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":34507}
+[08:04:22] Snippet data loaded.
+[08:04:22] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[08:04:22] Found root file from '.fls': /home/jameshershaw/Documents/masters/report/report.tex
+[08:04:22] Root file changed: from undefined to /home/jameshershaw/Documents/masters/report/report.tex
+[08:04:22] Start to find all dependencies.
+[08:04:22] Root file languageId: latex
+[08:04:22] Reset file watcher.
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/report.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/introduction.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/lit.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/data_link.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/network.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/hardware.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/sim.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[08:04:22] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:04:22] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:04:22] Added to bib file watcher: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:04:22] Parsing .bib entries from /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/report.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/introduction.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/lit.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/data_link.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/network.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/hardware.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/sim.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[08:04:22] Added to file watcher: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:04:22] Parsed 41 bib entries from /home/jameshershaw/Documents/masters/report/backmatter/report.bib.
+[08:04:22] Parse fls file.
+[08:04:22] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[08:04:22] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[08:04:22] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/report.tex.
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex.
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex.
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/introduction.tex.
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/lit.tex.
+[08:04:22] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/data_link.tex.
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/hidden_node.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/exposed_node.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/ALOHA.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/CSMA.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/maca_a.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/maca_b.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/optimality_tree.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/dijkstra.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/dsdvEg.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/aodvEg.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/aodvEg2.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/ui.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/single_server_queue.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/superposition.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/report/figures/decomposition.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png
+[08:04:23] Added to file watcher: /home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png
+[08:04:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/network.tex.
+[08:04:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/hardware.tex.
+[08:04:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/sim.tex.
+[08:04:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/queuing.tex.
+[08:04:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[08:04:24] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[08:04:24] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[08:04:24] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[08:04:24] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[08:04:24] PdfWatcher.pdfWatcher.getWatched: {}
+[08:04:24] PdfWatcher.pdfsWatched: []
+[08:04:28] VIEW command invoked.
+[08:04:28] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[08:04:28] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[08:04:28] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[08:04:28] Serving PDF file at http://127.0.0.1:34507/viewer.html?file=pdf..JTJGaG9tZSUyRmphbWVzaGVyc2hhdyUyRkRvY3VtZW50cyUyRm1hc3RlcnMlMkZyZXBvcnQlMkZyZXBvcnQucGRm
+[08:04:28] The encoded path is /home/jameshershaw/Documents/masters/report/report.pdf
+[08:04:28] Open PDF viewer for /home/jameshershaw/Documents/masters/report/report.pdf
+[08:04:30] Handle data type: open
+[08:04:30] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[08:04:30] Handle data type: request_params
+[08:04:30] Sending the settings of the PDF viewer for initialization: {"type":"params","scale":"auto","trim":0,"scrollMode":0,"spreadMode":0,"hand":false,"invertMode":{"enabled":false,"brightness":1,"grayscale":0.6,"hueRotate":180,"invert":0,"sepia":0},"bgColor":"#ffffff","keybindings":{"synctex":"ctrl-click"}}
+[08:04:30] Handle data type: loaded
+[08:04:30] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[08:04:30] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[08:04:30] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[08:04:30] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[08:04:30] PdfWatcher.pdfWatcher.getWatched: {}
+[08:04:30] PdfWatcher.pdfsWatched: []
+[08:10:01] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:10:01] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:10:01] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:10:01] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[08:10:01] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:10:01] BUILD command invoked.
+[08:10:01] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:10:01] The languageId of the document: latex
+[08:10:01] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[08:10:01] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[08:10:01] outDir: /home/jameshershaw/Documents/masters/report
+[08:10:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[08:10:01] Recipe step env: {}
+[08:10:01] cwd: /home/jameshershaw/Documents/masters/report
+[08:10:01] LaTeX build process spawned. PID: 44943.
+[08:10:05] LaTeX log parsed with 70 messages.
+[08:10:05] Recipe of length 1 finished. PID: 44943.
+[08:10:05] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[08:10:05] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[08:10:05] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[08:10:05] Parse fls file.
+[08:10:05] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[08:10:05] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[08:10:05] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[08:10:05] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[08:10:05] Handle data type: loaded
+[08:58:06] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:58:06] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:58:06] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:58:06] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[08:58:06] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:58:06] BUILD command invoked.
+[08:58:06] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[08:58:06] The languageId of the document: latex
+[08:58:06] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[08:58:06] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[08:58:06] outDir: /home/jameshershaw/Documents/masters/report
+[08:58:06] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[08:58:06] Recipe step env: {}
+[08:58:06] cwd: /home/jameshershaw/Documents/masters/report
+[08:58:06] LaTeX build process spawned. PID: 244560.
+[08:58:13] BibTeX log parsed with 4 messages.
+[08:58:13] LaTeX log parsed with 70 messages.
+[08:58:13] Recipe of length 1 finished. PID: 244560.
+[08:58:13] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[08:58:13] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[08:58:13] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[08:58:13] Parse fls file.
+[08:58:13] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[08:58:13] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[08:58:13] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[08:58:13] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[08:58:14] Handle data type: loaded
+[09:01:58] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:01:58] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:01:58] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:01:58] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:01:58] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:01:58] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:02:00] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:02:00] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:02:00] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:02:00] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:02:00] PdfWatcher.pdfWatcher.getWatched: {}
+[09:02:00] PdfWatcher.pdfsWatched: []
+[09:02:00] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:02:00] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:02:00] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:02:00] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:02:00] PdfWatcher.pdfWatcher.getWatched: {}
+[09:02:00] PdfWatcher.pdfsWatched: []
+[09:02:50] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:02:50] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:02:50] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:02:52] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:02:52] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:02:52] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:02:52] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:02:52] PdfWatcher.pdfWatcher.getWatched: {}
+[09:02:52] PdfWatcher.pdfsWatched: []
+[09:03:01] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:03:01] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:03:01] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:02] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:03:02] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:03:02] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:03:03] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/queuing.tex.
+[09:03:03] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:03:03] BUILD command invoked.
+[09:03:03] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:03:03] The languageId of the document: latex
+[09:03:03] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:03] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:03] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:03] outDir: /home/jameshershaw/Documents/masters/report
+[09:03:03] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:03:03] Recipe step env: {}
+[09:03:03] cwd: /home/jameshershaw/Documents/masters/report
+[09:03:03] LaTeX build process spawned. PID: 261348.
+[09:03:03] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:03] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:03] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:03:03] Auto Build Run is temporarily disabled during a second.
+[09:03:03] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:03:03] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:03:03] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:03:03] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:03:03] PdfWatcher.pdfWatcher.getWatched: {}
+[09:03:03] PdfWatcher.pdfsWatched: []
+[09:03:03] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:03:03] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:03:03] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:05] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:03:05] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:03:05] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:03:05] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:03:05] PdfWatcher.pdfWatcher.getWatched: {}
+[09:03:05] PdfWatcher.pdfsWatched: []
+[09:03:06] LaTeX log parsed with 73 messages.
+[09:03:06] Recipe of length 1 finished. PID: 261348.
+[09:03:06] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:03:06] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:03:06] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:03:06] Parse fls file.
+[09:03:06] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:03:06] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:03:06] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:03:06] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:03:06] Handle data type: loaded
+[09:03:13] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:14] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:14] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:14] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:03:14] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:14] BUILD command invoked.
+[09:03:14] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:14] The languageId of the document: latex
+[09:03:14] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:14] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:14] outDir: /home/jameshershaw/Documents/masters/report
+[09:03:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:03:14] Recipe step env: {}
+[09:03:14] cwd: /home/jameshershaw/Documents/masters/report
+[09:03:14] LaTeX build process spawned. PID: 262440.
+[09:03:14] Recipe of length 1 finished. PID: 262440.
+[09:03:14] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:03:58] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:58] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:58] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:59] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:03:59] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:59] BUILD command invoked.
+[09:03:59] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:03:59] The languageId of the document: latex
+[09:03:59] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:59] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:03:59] outDir: /home/jameshershaw/Documents/masters/report
+[09:03:59] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:03:59] Recipe step env: {}
+[09:03:59] cwd: /home/jameshershaw/Documents/masters/report
+[09:03:59] LaTeX build process spawned. PID: 264712.
+[09:04:02] LaTeX log parsed with 73 messages.
+[09:04:02] Recipe of length 1 finished. PID: 264712.
+[09:04:02] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:04:02] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:04:02] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:04:02] Parse fls file.
+[09:04:02] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:04:02] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:04:02] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:04:02] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:04:02] Handle data type: loaded
+[09:04:07] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:04:07] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:04:07] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:04:09] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:04:09] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:04:09] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:04:09] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:04:09] PdfWatcher.pdfWatcher.getWatched: {}
+[09:04:09] PdfWatcher.pdfsWatched: []
+[09:04:14] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:04:14] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:04:14] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:04:14] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/queuing.tex.
+[09:04:14] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:04:14] BUILD command invoked.
+[09:04:14] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/queuing.tex
+[09:04:14] The languageId of the document: latex
+[09:04:14] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:04:14] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:04:14] outDir: /home/jameshershaw/Documents/masters/report
+[09:04:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:04:14] Recipe step env: {}
+[09:04:14] cwd: /home/jameshershaw/Documents/masters/report
+[09:04:14] LaTeX build process spawned. PID: 265834.
+[09:04:16] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:04:16] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:04:16] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:04:18] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:04:18] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:04:18] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:04:18] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:04:18] PdfWatcher.pdfWatcher.getWatched: {}
+[09:04:18] PdfWatcher.pdfsWatched: []
+[09:04:21] BibTeX log parsed with 4 messages.
+[09:04:21] LaTeX log parsed with 70 messages.
+[09:04:21] Recipe of length 1 finished. PID: 265834.
+[09:04:21] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:04:21] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:04:21] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:04:21] Parse fls file.
+[09:04:21] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:04:21] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:04:21] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:04:21] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:04:22] Handle data type: loaded
+[09:06:30] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:06:30] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:06:30] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:06:30] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:06:30] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:06:30] BUILD command invoked.
+[09:06:30] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:06:30] The languageId of the document: latex
+[09:06:30] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:06:30] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:06:30] outDir: /home/jameshershaw/Documents/masters/report
+[09:06:30] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:06:30] Recipe step env: {}
+[09:06:30] cwd: /home/jameshershaw/Documents/masters/report
+[09:06:30] LaTeX build process spawned. PID: 273659.
+[09:06:37] BibTeX log parsed with 4 messages.
+[09:06:37] LaTeX log parsed with 70 messages.
+[09:06:37] Recipe of length 1 finished. PID: 273659.
+[09:06:37] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:06:37] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:06:37] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:06:37] Parse fls file.
+[09:06:37] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:06:37] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:06:37] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:06:37] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:06:37] Handle data type: loaded
+[09:14:14] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:14:15] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:14:15] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:14:15] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:14:15] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:14:15] BUILD command invoked.
+[09:14:15] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:14:15] The languageId of the document: latex
+[09:14:15] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:14:15] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:14:15] outDir: /home/jameshershaw/Documents/masters/report
+[09:14:15] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:14:15] Recipe step env: {}
+[09:14:15] cwd: /home/jameshershaw/Documents/masters/report
+[09:14:15] LaTeX build process spawned. PID: 299628.
+[09:14:25] BibTeX log parsed with 4 messages.
+[09:14:25] LaTeX log parsed with 70 messages.
+[09:14:25] Recipe of length 1 finished. PID: 299628.
+[09:14:25] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:14:25] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:14:25] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:14:25] Parse fls file.
+[09:14:25] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:14:25] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:14:25] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:14:25] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:14:25] Handle data type: loaded
+[09:28:22] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:28:23] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:28:23] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:28:23] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex.
+[09:28:23] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:28:23] BUILD command invoked.
+[09:28:23] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+[09:28:23] The languageId of the document: latex
+[09:28:23] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:28:23] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:28:23] outDir: /home/jameshershaw/Documents/masters/report
+[09:28:23] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:28:23] Recipe step env: {}
+[09:28:23] cwd: /home/jameshershaw/Documents/masters/report
+[09:28:23] LaTeX build process spawned. PID: 346131.
+[09:28:30] BibTeX log parsed with 4 messages.
+[09:28:30] LaTeX log parsed with 70 messages.
+[09:28:30] Recipe of length 1 finished. PID: 346131.
+[09:28:30] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:28:30] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:28:30] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:28:30] Parse fls file.
+[09:28:30] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:28:30] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:28:30] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:28:30] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:28:30] Handle data type: loaded
+[09:36:44] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:36:44] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:36:44] Current workspace folders: ["file:///home/jameshershaw/Documents/masters/report"]
+[09:36:44] Current workspaceRootDir: file:///home/jameshershaw/Documents/masters/report
+[09:36:44] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:36:44] Keep using the same root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:36:46] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:36:46] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:36:46] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:36:46] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:36:46] PdfWatcher.pdfWatcher.getWatched: {}
+[09:36:46] PdfWatcher.pdfsWatched: []
+[09:36:46] Manager.fileWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report":["report.tex"],"/home/jameshershaw/Documents/masters/report/frontmatter":["Chap-Front.tex","Nomencl.tex"],"/home/jameshershaw/Documents/masters/report/contents":["conclusion.tex","data_link.tex","hardware.tex","introduction.tex","lit.tex","network.tex","queuing.tex","sim.tex"],"/home/jameshershaw/Documents/masters/report/figures":["ALOHA.png","ALOHA_comp.png","CSMA.png","aodvEg.png","aodvEg2.png","count-to-infinity-a.png","count-to-infinity-b.png","decomposition.png","desmoj_class_heirarchy.png","dijkstra.png","dsdvEg.png","dsdvEg2.png","exposed_node.png","fresnel_zone.jpg","hidden_node.png","link-state-subnet.png","maca_a.png","maca_b.png","optimality_and_fairness.png","optimality_subnet.png","optimality_tree.png","single_server_queue.png","superposition.png"],"/home/jameshershaw/Documents/masters/report/figures/model_description":["network-parameters.png","network-system.png","rf_idle.png","rf_rx_running.png","rf_tx_running.png","tmentity.png","ui.png"],"/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1":["connections.png","net_report.png"],"/home/jameshershaw/Documents/masters/queuing_theory/figures":["birth-death.png","finite_queue.png","global-balance.png","local-balance.png","queue_with_adjusted_service_time.png","queue_with_backoff_queue.png","queue_with_backoff_queue_2.png","queue_with_backoff_server.png","queue_with_hop_queue.png","state_space_model.png","state_space_model_adjusted.png","state_space_model_og.png"]}
+[09:36:46] Manager.filesWatched: ["/home/jameshershaw/Documents/masters/report/report.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.tex","/home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.tex","/home/jameshershaw/Documents/masters/report/contents/introduction.tex","/home/jameshershaw/Documents/masters/report/contents/lit.tex","/home/jameshershaw/Documents/masters/report/contents/data_link.tex","/home/jameshershaw/Documents/masters/report/contents/network.tex","/home/jameshershaw/Documents/masters/report/contents/hardware.tex","/home/jameshershaw/Documents/masters/report/contents/sim.tex","/home/jameshershaw/Documents/masters/report/contents/queuing.tex","/home/jameshershaw/Documents/masters/report/contents/conclusion.tex","/home/jameshershaw/Documents/masters/report/figures/hidden_node.png","/home/jameshershaw/Documents/masters/report/figures/exposed_node.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA.png","/home/jameshershaw/Documents/masters/report/figures/ALOHA_comp.png","/home/jameshershaw/Documents/masters/report/figures/CSMA.png","/home/jameshershaw/Documents/masters/report/figures/maca_a.png","/home/jameshershaw/Documents/masters/report/figures/maca_b.png","/home/jameshershaw/Documents/masters/report/figures/optimality_and_fairness.png","/home/jameshershaw/Documents/masters/report/figures/optimality_subnet.png","/home/jameshershaw/Documents/masters/report/figures/optimality_tree.png","/home/jameshershaw/Documents/masters/report/figures/dijkstra.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-a.png","/home/jameshershaw/Documents/masters/report/figures/count-to-infinity-b.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg.png","/home/jameshershaw/Documents/masters/report/figures/dsdvEg2.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg.png","/home/jameshershaw/Documents/masters/report/figures/aodvEg2.png","/home/jameshershaw/Documents/masters/report/figures/link-state-subnet.png","/home/jameshershaw/Documents/masters/report/figures/fresnel_zone.jpg","/home/jameshershaw/Documents/masters/report/figures/desmoj_class_heirarchy.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_idle.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_tx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/rf_rx_running.png","/home/jameshershaw/Documents/masters/report/figures/model_description/tmentity.png","/home/jameshershaw/Documents/masters/report/figures/model_description/ui.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-parameters.png","/home/jameshershaw/Documents/masters/report/figures/model_description/network-system.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/connections.png","/home/jameshershaw/Documents/masters/radio_mobile/positions/config_1/net_report.png","/home/jameshershaw/Documents/masters/report/figures/single_server_queue.png","/home/jameshershaw/Documents/masters/report/figures/superposition.png","/home/jameshershaw/Documents/masters/report/figures/decomposition.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/birth-death.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/global-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/local-balance.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/finite_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_adjusted_service_time.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue_2.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_backoff_server.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/queue_with_hop_queue.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_og.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model.png","/home/jameshershaw/Documents/masters/queuing_theory/figures/state_space_model_adjusted.png"]
+[09:36:46] BibWatcher.bibWatcher.getWatched: {"/home/jameshershaw/Documents/masters/report/backmatter":["report.bib"]}
+[09:36:46] BibWatcher.bibsWatched: ["/home/jameshershaw/Documents/masters/report/backmatter/report.bib"]
+[09:36:46] PdfWatcher.pdfWatcher.getWatched: {}
+[09:36:46] PdfWatcher.pdfsWatched: []
+[09:49:32] onDidSaveTextDocument triggered: file:///home/jameshershaw/Documents/masters/report/contents/sim.tex
+[09:49:32] File watcher - file changed: /home/jameshershaw/Documents/masters/report/contents/sim.tex
+[09:49:32] Parsing a file and its subfiles: /home/jameshershaw/Documents/masters/report/contents/sim.tex
+[09:49:33] Checking for duplicate labels: /home/jameshershaw/Documents/masters/report/contents/sim.tex.
+[09:49:33] Auto build started detecting the change of a file: /home/jameshershaw/Documents/masters/report/contents/sim.tex
+[09:49:33] BUILD command invoked.
+[09:49:33] The document of the active editor: file:///home/jameshershaw/Documents/masters/report/contents/sim.tex
+[09:49:33] The languageId of the document: latex
+[09:49:33] Building root file: /home/jameshershaw/Documents/masters/report/report.tex
+[09:49:33] Build root file /home/jameshershaw/Documents/masters/report/report.tex
+[09:49:33] outDir: /home/jameshershaw/Documents/masters/report
+[09:49:33] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/jameshershaw/Documents/masters/report,/home/jameshershaw/Documents/masters/report/report
+[09:49:33] Recipe step env: {}
+[09:49:33] cwd: /home/jameshershaw/Documents/masters/report
+[09:49:33] LaTeX build process spawned. PID: 421429.
+[09:49:43] BibTeX log parsed with 4 messages.
+[09:49:43] LaTeX log parsed with 99 messages.
+[09:49:43] Recipe of length 1 finished. PID: 421429.
+[09:49:43] Successfully built /home/jameshershaw/Documents/masters/report/report.tex.
+[09:49:43] Call refreshExistingViewer: {"sourceFile":"/home/jameshershaw/Documents/masters/report/report.tex"}
+[09:49:43] Refresh PDF viewer: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:49:43] Parse fls file.
+[09:49:43] Fls file found: /home/jameshershaw/Documents/masters/report/report.fls
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/report.aux
+[09:49:43] Found .bib file: /home/jameshershaw/Documents/masters/report/backmatter/report.bib
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Chap-Front.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/frontmatter/Nomencl.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/introduction.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/lit.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/data_link.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/network.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/hardware.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/sim.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/queuing.aux
+[09:49:43] Parse aux file: /home/jameshershaw/Documents/masters/report/contents/conclusion.aux
+[09:49:43] Preview PDF file: /home/jameshershaw/Documents/masters/report/report.pdf
+[09:49:43] Handle data type: loaded

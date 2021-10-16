@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/jameshershaw/.config/Code/User/workspaceStorage/461de979bfa1bfc838965216c4879dbf/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+676911311.index
+3373294853.index
+1865797976.index
+1303718784.index
+3842426239.index

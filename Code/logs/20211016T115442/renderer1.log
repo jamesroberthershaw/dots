@@ -1,0 +1,10 @@
+[2021-10-16 11:54:44.547] [renderer1] [info] Starting extension host with pid 3245.
+[2021-10-16 11:54:44.750] [renderer1] [error] [Extension Host] (node:3245) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-16 11:54:52.634] [renderer1] [info] Starting extension host with pid 3407.
+[2021-10-16 11:54:52.994] [renderer1] [error] [Extension Host] (node:3407) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-16 11:55:19.870] [renderer1] [info] Starting extension host with pid 4612.
+[2021-10-16 11:55:20.033] [renderer1] [error] [Extension Host] (node:4612) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-16 11:55:20.864] [renderer1] [info] Extension host with pid 3407 exited with code: 0, signal: null.

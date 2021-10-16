@@ -1,0 +1,104 @@
+Validating found git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/jameshershaw/Documents/masters
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :report/contents/conclusion.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+> git cat-file -s 2e73952a6e41b9172f3a3a985f09a69efe7e9406
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :report/contents/queuing.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+> git cat-file -s a076cfde7a16f4ae80df50f8f4b8515920fafb74
+> git show --textconv :report/contents/conclusion.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+> git cat-file -s 2e73952a6e41b9172f3a3a985f09a69efe7e9406
+> git show --textconv :report/contents/queuing.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+> git cat-file -s a076cfde7a16f4ae80df50f8f4b8515920fafb74
+> git show --textconv :report/contents/conclusion.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+> git cat-file -s 2e73952a6e41b9172f3a3a985f09a69efe7e9406
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :report/contents/queuing.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/queuing.tex
+> git cat-file -s a076cfde7a16f4ae80df50f8f4b8515920fafb74
+> git show --textconv :report/contents/conclusion.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/conclusion.tex
+> git cat-file -s 2e73952a6e41b9172f3a3a985f09a69efe7e9406
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :report/contents/sim.tex
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/sim.tex
+> git cat-file -s e992808801f2b9a0d13f10a19055c57f0ad128dc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/jameshershaw/Documents/masters/report/contents/sim.tex
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git cat-file -s e992808801f2b9a0d13f10a19055c57f0ad128dc
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :report/contents/sim.tex
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

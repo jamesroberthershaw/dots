@@ -1,0 +1,117 @@
+#! /bin/sh
+
+#pgrep -x sxhkd > /dev/null || sxhkd &
+## Environtment
+export PATH="${PATH}:$HOME/.config/bspwm"
+
+## Get colors from .Xresources -------------------------------#
+xrdb ~/.Xresources
+getcolors () {
+	FOREGROUND=$(xrdb -query | grep 'foreground:'| awk '{print $NF}')
+	BACKGROUND=$(xrdb -query | grep 'background:'| awk '{print $NF}')
+	BLACK=$(xrdb -query | grep 'color0:'| awk '{print $NF}')
+	RED=$(xrdb -query | grep 'color1:'| awk '{print $NF}')
+	GREEN=$(xrdb -query | grep 'color2:'| awk '{print $NF}')
+	YELLOW=$(xrdb -query | grep 'color3:'| awk '{print $NF}')
+	BLUE=$(xrdb -query | grep 'color4:'| awk '{print $NF}')
+	MAGENTA=$(xrdb -query | grep 'color5:'| awk '{print $NF}')
+	CYAN=$(xrdb -query | grep 'color6:'| awk '{print $NF}')
+	WHITE=$(xrdb -query | grep 'color7:'| awk '{print $NF}')
+}
+getcolors
+
+## Configurations -------------------------------#
+myarr=($(xrandr | grep " connected " | awk '{ print$1 }'))
+
+# Or loop through every element in the array
+x=${#myarr[@]}
+y=$((x-1))
+for i in $(seq 0 $y)
+do
+   :
+   if [[ $i != 0 ]]
+       then 
+           j=$((i-1))
+           xrandr --output ${myarr[$i]} --mode 1920x1080 --rotate normal --right-of ${myarr[$j]}
+           bspc monitor ${myarr[$i]} -d '$((i+2))' '$((i+3))'
+       else
+           xrandr --output ${myarr[$i]} --mode 1920x1080 --rotate normal
+           bspc monitor ${myarr[$i]} -d '$((i+1))' '$((i+2))'
+   fi
+done
+
+bspc config border_width 0
+bspc config border_radius 15
+bspc config top_monocle_padding     10
+bspc config left_monocle_padding    0
+bspc config bottom_monocle_padding  0
+bspc config right_monocle_padding  	0
+bspc config window_gap 15
+bspc config split_ratio 0.52
+bspc config top_padding 38
+bcpc config bottom_padding 0
+
+bspc config focused_border_color "#2E2B46"
+bspc config normal_border_color "#2E2B46"
+bspc config active_border_color '#2E2B46'
+bspc config presel_feedback_color '#2E2B46'
+
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+bspc config paddingless_monocle true
+bspc config single_monocle false
+bspc config focus_follows_pointer true
+
+## Window rules -------------------------------#
+
+# remove all rules first
+bspc rule -r *:*
+
+# special rules
+bspc rule -a alacritty-float state=floating follow=on focus=on
+bspc rule -a Pcmanfm state=floating follow=on focus=on
+bspc rule -a Onboard state=floating follow=on focus=on
+bspc rule -a Audacious state=floating follow=on focus=on
+bspc rule -a Firefox:Places state=floating follow=on focus=on
+bspc rule -a Viewnior state=floating follow=on focus=on
+bspc rule -a Nm-connection-editor state=floating follow=on focus=on
+bspc rule -a Conky state=floating manage=off
+bspc rule -a stalonetray state=floating manage=off
+
+## Autostart -------------------------------#
+
+
+# Kill if already running
+killall -9 sxhkd xsettingsd dunst xfce4-power-manager
+
+# Lauch keybindings daemon
+sxhkd &
+
+# Lauch notification daemon
+dunst &
+
+# Lauch xsettingsd daemon
+xsettingsd &
+
+# polkit agent
+/usr/lib/xfce-polkit/xfce-polkit &
+
+# Enable power management
+xfce4-power-manager &
+
+# Fix cursor
+xsetroot -cursor_name left_ptr
+
+# Start bspwm scripts
+bspcomp &
+bspbar &
+bspfloat &
+
+# Restore wallpaper
+bash $HOME/.fehbg
+
+# Start compositor
+bash $HOME/.config/picom/start_picom.sh 
+
+# Polybar
+bash $HOME/.config/polybar/launch.sh

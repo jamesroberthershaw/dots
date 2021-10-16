@@ -1,0 +1,8 @@
+Info 2021-10-14 08:27:46: ZMQ install verified.
+Info 2021-10-14 09:35:56: Shutting down notebooks for b3fe60f8-24ee-452e-97ce-6ae939630484
+Info 2021-10-14 09:35:56: Disposing HostJupyterExecution 247da50c-e046-4a8b-9d09-d87687c096f1
+Info 2021-10-14 09:35:56: Disposing super HostJupyterExecution 247da50c-e046-4a8b-9d09-d87687c096f1
+Info 2021-10-14 09:35:56: Disposing HostJupyterExecution 247da50c-e046-4a8b-9d09-d87687c096f1
+Info 2021-10-14 09:35:56: Finished disposing HostJupyterExecution  247da50c-e046-4a8b-9d09-d87687c096f1
+Info 2021-10-14 09:35:56: Cleaning up server cache 247da50c-e046-4a8b-9d09-d87687c096f1
+Info 2021-10-14 09:35:56: Finished disposing HostJupyterExecution  247da50c-e046-4a8b-9d09-d87687c096f1

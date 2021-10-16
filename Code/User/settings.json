@@ -1,0 +1,17 @@
+{
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "latex-workshop.view.pdf.viewer": "browser",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Palenight Theme",
+    "workbench.iconTheme": "vscode-icons"
+}
