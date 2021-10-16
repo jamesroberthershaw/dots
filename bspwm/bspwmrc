@@ -108,7 +108,7 @@ bspbar &
 bspfloat &
 
 # Restore wallpaper
-bash $HOME/.fehbg
+bash $HOME/.config/.fehbg
 
 # Start compositor
 bash $HOME/.config/picom/start_picom.sh 
