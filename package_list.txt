@@ -25,6 +25,7 @@ curlftpfs
 davfs2
 dmidecode
 dmraid
+docker
 dosfstools
 downgrade
 dunst
