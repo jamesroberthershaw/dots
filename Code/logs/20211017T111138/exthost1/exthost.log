@@ -1,0 +1,43 @@
+[2021-10-17 11:11:39.561] [exthost] [info] extension host started
+[2021-10-17 11:11:39.561] [exthost] [info] Skipping acquiring lock for /home/jameshershaw/.config/Code/User/workspaceStorage/182a7843f69cfa1598f3e5a2e72767da.
+[2021-10-17 11:11:39.653] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-10-17 11:11:39.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-10-17 11:11:39.659] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-10-17 11:11:39.659] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-17 11:11:39.807] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-17 11:11:39.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension
+[2021-10-17 11:11:39.880] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-17 11:11:39.880] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14/dist/intellicode
+[2021-10-17 11:11:39.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-17 11:11:39.915] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-10-17 11:11:39.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-17 11:11:39.918] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-10-17 11:11:39.930] [exthost] [info] ExtensionService#_doActivateExtension johnstoncode.svn-scm, startup: true, activationEvent: '*'
+[2021-10-17 11:11:39.930] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/johnstoncode.svn-scm-2.14.0/out/extension
+[2021-10-17 11:11:39.963] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2021-10-17 11:11:39.963] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/vscode-icons-team.vscode-icons-11.6.0/dist/src/vscode-icons.bundle.js
+[2021-10-17 11:11:40.263] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-10-17 11:11:40.263] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-10-17 11:11:40.346] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-17 11:11:40.346] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-17 11:11:40.408] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-10-17 11:11:40.408] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-10-17 11:11:40.470] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-10-17 11:11:40.470] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-10-17 11:11:40.713] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-10-17 11:11:40.713] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/ms-python.vscode-pylance-2021.10.1/dist/extension.bundle.js
+[2021-10-17 11:11:41.093] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-10-17 11:11:41.093] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-10-17 11:11:41.097] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-10-17 11:11:41.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/extension
+[2021-10-17 11:11:41.306] [exthost] [info] eager extensions activated
+[2021-10-17 11:11:41.310] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 11:11:41.310] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-17 11:11:41.314] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-17 11:11:41.314] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-17 11:11:41.496] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-10-17 11:11:41.496] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/markdown-math/dist/extension
+[2021-10-17 11:12:20.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-10-17 11:12:20.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-10-17 11:12:47.254] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onView:dockerContainers'
+[2021-10-17 11:12:47.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jameshershaw/.vscode/extensions/ms-azuretools.vscode-docker-1.17.0/main

@@ -1,0 +1,11 @@
+Info 2021-10-17 11:35:46: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-10-17 11:35:46: ZMQ install verified.
+Info 2021-10-17 11:36:27: Shutting down notebooks for 73ea6175-9f01-4d0e-95fa-6891a317040a
+Info 2021-10-17 11:36:27: Disposing HostJupyterExecution 95dd07b4-3f0b-4c4d-9851-b0127aa97684
+Info 2021-10-17 11:36:27: Disposing super HostJupyterExecution 95dd07b4-3f0b-4c4d-9851-b0127aa97684
+Info 2021-10-17 11:36:27: Disposing HostJupyterExecution 95dd07b4-3f0b-4c4d-9851-b0127aa97684
+Info 2021-10-17 11:36:27: Finished disposing HostJupyterExecution  95dd07b4-3f0b-4c4d-9851-b0127aa97684
+Info 2021-10-17 11:36:27: Cleaning up server cache 95dd07b4-3f0b-4c4d-9851-b0127aa97684
+Info 2021-10-17 11:36:27: Finished disposing HostJupyterExecution  95dd07b4-3f0b-4c4d-9851-b0127aa97684

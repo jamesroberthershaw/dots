@@ -34,7 +34,7 @@ super + shift + {a,s}
 #	backlight-up
 
 XF86MonBrightness{Up,Down}
-	xbacklight {-inc 5 ,-dec 5}
+	brightnessctl {s +5% ,s 5%-}
 	
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume}

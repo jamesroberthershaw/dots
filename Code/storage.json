@@ -4,8 +4,8 @@
         "entries": [
             {
                 "workspace": {
-                    "id": "182a7843f69cfa1598f3e5a2e72767da",
-                    "configPath": "file:///home/jameshershaw/Documents/corigine_technical_assessment/corigine.code-workspace"
+                    "id": "ac7e846cbe3196d28e5e02f9d8bdc4bb",
+                    "configPath": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace"
                 }
             },
             {
@@ -88,13 +88,13 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/jameshershaw/Documents/corigine_technical_assessment/corigine.code-workspace",
-                                        "external": "file:///home/jameshershaw/Documents/corigine_technical_assessment/corigine.code-workspace",
-                                        "path": "/home/jameshershaw/Documents/corigine_technical_assessment/corigine.code-workspace",
+                                        "fsPath": "/home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
+                                        "external": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
+                                        "path": "/home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/corigine_technical_assessment/corigine (Workspace)"
+                                    "label": "~/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits (Workspace)"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -512,8 +512,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -526,7 +525,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -716,8 +716,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -726,8 +725,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1039,8 +1037,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1626,7 +1623,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 277,
+            "sideBarWidth": 0,
             "statusBarHeight": 0,
             "windowBorder": false
         }
@@ -1634,10 +1631,10 @@
     "windowsState": {
         "lastActiveWindow": {
             "workspaceIdentifier": {
-                "id": "182a7843f69cfa1598f3e5a2e72767da",
-                "configURIPath": "file:///home/jameshershaw/Documents/corigine_technical_assessment/corigine.code-workspace"
+                "id": "ac7e846cbe3196d28e5e02f9d8bdc4bb",
+                "configURIPath": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace"
             },
-            "backupPath": "/home/jameshershaw/.config/Code/Backups/182a7843f69cfa1598f3e5a2e72767da",
+            "backupPath": "/home/jameshershaw/.config/Code/Backups/ac7e846cbe3196d28e5e02f9d8bdc4bb",
             "uiState": {
                 "mode": 1,
                 "x": 1005,
@@ -1648,5 +1645,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/jameshershaw/Documents"
+    "pickerWorkingDir": "/home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment"
 }

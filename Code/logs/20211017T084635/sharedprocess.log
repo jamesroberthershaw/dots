@@ -1,0 +1,90 @@
+[2021-10-17 08:46:47.052] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-17 08:46:47.053] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211014T080420'
+[2021-10-17 08:47:07.052] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-17 08:47:07.052] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-17 08:47:07.054] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1634239571821.
+[2021-10-17 08:47:17.051] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-17 08:49:04.277] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2021-10-17 08:49:05.210] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-10-17 08:49:06.531] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-10-17 08:49:08.490] [sharedprocess] [info] Installing extension: johnstoncode.svn-scm
+[2021-10-17 08:49:09.520] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.17.0
+[2021-10-17 08:49:09.606] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.72d8ad49-735f-472f-aff9-a7098e0f277c: ms-azuretools.vscode-docker
+[2021-10-17 08:49:09.611] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-azuretools.vscode-docker-1.17.0
+[2021-10-17 08:49:09.612] [sharedprocess] [info] Extracting completed. ms-azuretools.vscode-docker
+[2021-10-17 08:49:09.614] [sharedprocess] [info] Extension installed successfully: ms-azuretools.vscode-docker
+[2021-10-17 08:49:11.445] [sharedprocess] [info] Downloaded extension: johnstoncode.svn-scm /home/jameshershaw/.config/Code/CachedExtensionVSIXs/johnstoncode.svn-scm-2.14.0
+[2021-10-17 08:49:11.494] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.798d151f-f019-48d1-9e4b-14fccd3b5415: johnstoncode.svn-scm
+[2021-10-17 08:49:11.497] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/johnstoncode.svn-scm-2.14.0
+[2021-10-17 08:49:11.498] [sharedprocess] [info] Extracting completed. johnstoncode.svn-scm
+[2021-10-17 08:49:11.499] [sharedprocess] [info] Extension installed successfully: johnstoncode.svn-scm
+[2021-10-17 08:49:12.354] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2021-10-17 08:49:12.355] [sharedprocess] [info] Installing extension: redhat.java
+[2021-10-17 08:49:12.355] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2021-10-17 08:49:12.355] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2021-10-17 08:49:12.355] [sharedprocess] [info] Installing extension: vscjava.vscode-java-test
+[2021-10-17 08:49:12.355] [sharedprocess] [info] Installing extension: vscjava.vscode-java-dependency
+[2021-10-17 08:49:12.482] [sharedprocess] [info] Downloaded extension: redhat.java /home/jameshershaw/.config/Code/CachedExtensionVSIXs/redhat.java-0.82.0
+[2021-10-17 08:49:12.482] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /home/jameshershaw/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-debug-0.36.0
+[2021-10-17 08:49:12.482] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /home/jameshershaw/.config/Code/CachedExtensionVSIXs/vscjava.vscode-maven-0.34.0
+[2021-10-17 08:49:12.483] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-dependency /home/jameshershaw/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-dependency-0.18.8
+[2021-10-17 08:49:12.538] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.87271ba0-cc0a-4697-a4b5-283c84e46397: vscjava.vscode-java-dependency
+[2021-10-17 08:49:12.547] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/vscjava.vscode-java-dependency-0.18.8
+[2021-10-17 08:49:12.549] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-dependency
+[2021-10-17 08:49:12.580] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.ac24960c-c9a3-4283-8dfa-eb3fe260851a: vscjava.vscode-java-debug
+[2021-10-17 08:49:12.586] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/vscjava.vscode-java-debug-0.36.0
+[2021-10-17 08:49:12.589] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-debug
+[2021-10-17 08:49:12.726] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.280884cb-41d6-4252-897e-cb8eebd9fec0: vscjava.vscode-maven
+[2021-10-17 08:49:12.731] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/vscjava.vscode-maven-0.34.0
+[2021-10-17 08:49:12.732] [sharedprocess] [info] Extracting completed. vscjava.vscode-maven
+[2021-10-17 08:49:12.946] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.3c671cb4-a3a5-4158-8dfe-e1519707db7d: redhat.java
+[2021-10-17 08:49:12.949] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/redhat.java-0.82.0
+[2021-10-17 08:49:12.951] [sharedprocess] [info] Extracting completed. redhat.java
+[2021-10-17 08:49:13.536] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-10-17 08:49:13.536] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2021-10-17 08:49:13.537] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2021-10-17 08:49:13.537] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-10-17 08:49:13.631] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2021-10-17 08:49:13.637] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.f934a31d-9f8a-4789-ad24-8b7c77726073: ms-toolsai.jupyter-keymap
+[2021-10-17 08:49:13.640] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2021-10-17 08:49:13.640] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2021-10-17 08:49:31.727] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.3
+[2021-10-17 08:49:31.835] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.9adb266b-5a6d-4fb0-a4a1-35651e3586b1: ms-toolsai.jupyter-renderers
+[2021-10-17 08:49:31.838] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3
+[2021-10-17 08:49:31.839] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2021-10-17 08:49:52.987] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /home/jameshershaw/.config/Code/CachedExtensionVSIXs/visualstudioexptteam.vscodeintellicode-1.2.14
+[2021-10-17 08:49:53.058] [sharedprocess] [info] Downloaded extension: ms-python.python /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.10.1336267007
+[2021-10-17 08:49:53.256] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.9.1101343141
+[2021-10-17 08:49:53.313] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.5af74e57-1380-48d7-aec2-ffd14fddc39c: visualstudioexptteam.vscodeintellicode
+[2021-10-17 08:49:53.317] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14
+[2021-10-17 08:49:53.318] [sharedprocess] [info] Extracting completed. visualstudioexptteam.vscodeintellicode
+[2021-10-17 08:49:53.354] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-test /home/jameshershaw/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-test-0.32.0
+[2021-10-17 08:49:53.415] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.ab095218-5e88-4d92-b5e5-bc52c0b2d8ea: vscjava.vscode-java-test
+[2021-10-17 08:49:53.418] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/vscjava.vscode-java-test-0.32.0
+[2021-10-17 08:49:53.419] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-test
+[2021-10-17 08:49:53.453] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack /home/jameshershaw/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-pack-0.18.5
+[2021-10-17 08:49:53.549] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.8cd01d49-e60b-4467-82d4-71e364bef0ec: vscjava.vscode-java-pack
+[2021-10-17 08:49:53.553] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/vscjava.vscode-java-pack-0.18.5
+[2021-10-17 08:49:53.554] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-pack
+[2021-10-17 08:49:53.556] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-dependency
+[2021-10-17 08:49:53.557] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-debug
+[2021-10-17 08:49:53.557] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-maven
+[2021-10-17 08:49:53.557] [sharedprocess] [info] Extension installed successfully: redhat.java
+[2021-10-17 08:49:53.557] [sharedprocess] [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+[2021-10-17 08:49:53.557] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-test
+[2021-10-17 08:49:53.558] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-pack
+[2021-10-17 08:49:53.807] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.11d7afb3-900c-44c5-a352-2aa1990553bc: ms-toolsai.jupyter
+[2021-10-17 08:49:53.814] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141
+[2021-10-17 08:49:53.816] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-10-17 08:49:54.341] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.466bdfeb-c1cc-40f5-9d5e-7d6bec66ac37: ms-python.python
+[2021-10-17 08:49:54.347] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-python.python-2021.10.1336267007
+[2021-10-17 08:49:54.349] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-10-17 08:50:17.813] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/jameshershaw/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.10.1
+[2021-10-17 08:50:19.194] [sharedprocess] [info] Extracted extension to /home/jameshershaw/.vscode/extensions/.eefb259b-18a5-42f7-841c-2e4fd55e99f8: ms-python.vscode-pylance
+[2021-10-17 08:50:19.199] [sharedprocess] [info] Renamed to /home/jameshershaw/.vscode/extensions/ms-python.vscode-pylance-2021.10.1
+[2021-10-17 08:50:19.200] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-10-17 08:50:19.204] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2021-10-17 08:50:19.204] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2021-10-17 08:50:19.204] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-10-17 08:50:19.205] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-10-17 08:50:19.205] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

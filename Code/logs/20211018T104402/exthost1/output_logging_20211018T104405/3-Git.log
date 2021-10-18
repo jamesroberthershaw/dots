@@ -1,0 +1,15 @@
+Validating found git in: git
+Using git 2.33.1 from git
+> git rev-parse --git-dir
+Open repository: /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 17dd4ce825d904d247fb21145c35eb61c98bce9a
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile

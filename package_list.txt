@@ -9,6 +9,7 @@ b43-fwcutter
 bash-completion
 binutils
 bison
+blight
 blueman
 bluetooth-support
 bridge-utils
@@ -215,6 +216,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+transmission-gtk
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-sans

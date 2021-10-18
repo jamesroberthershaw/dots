@@ -1,0 +1,113 @@
+Validating found git in: git
+Using git 2.33.1 from git
+> git rev-parse --git-dir
+Open repository: /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/README.md
+> git cat-file -s fcc8d215385c035202f0baa57e8b7620b4ff1ba5
+> git show --textconv :README.md
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 5507942199dd2cead476884126ad5ed031ca5d2e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 6ad6f03d07e861b0976573c0b48062a0718d4a2f
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 6ad6f03d07e861b0976573c0b48062a0718d4a2f
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 6ad6f03d07e861b0976573c0b48062a0718d4a2f
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 6ad6f03d07e861b0976573c0b48062a0718d4a2f
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 6ad6f03d07e861b0976573c0b48062a0718d4a2f
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 17dd4ce825d904d247fb21145c35eb61c98bce9a
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 17dd4ce825d904d247fb21145c35eb61c98bce9a
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/Dockerfile
+> git cat-file -s 17dd4ce825d904d247fb21145c35eb61c98bce9a
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
