@@ -1,6 +1,8 @@
 accountsservice
 alsa-firmware
 amd-ucode
+android-sdk-platform-tools
+android-tools
 arj
 autoconf
 automake
@@ -29,6 +31,7 @@ dmraid
 docker
 dosfstools
 downgrade
+droidcam
 dunst
 e2fsprogs
 ecryptfs-utils
@@ -112,6 +115,7 @@ librsvg
 libtool
 licenses
 lightdm
+lightdm-gtk-greeter-settings
 lightdm-settings
 lightdm-slick-greeter
 linux-firmware
@@ -209,9 +213,22 @@ systemd
 systemd-guest-user
 systemd-sysvcompat
 tar
+teams
 tela-circle-icon-theme-git
 terminus-font
 texinfo
+texlive-bibtexextra
+texlive-core
+texlive-fontsextra
+texlive-formatsextra
+texlive-games
+texlive-humanities
+texlive-latexextra
+texlive-music
+texlive-pictures
+texlive-pstricks
+texlive-publishers
+texlive-science
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -232,6 +249,7 @@ unzip
 update-grub
 usbutils
 util-linux
+v4l2loopback-dc-dkms
 visual-studio-code-bin
 which
 whitesur-cursor-theme-git
@@ -243,7 +261,7 @@ xautolock
 xbindkeys
 xcape
 xdg-desktop-portal
-xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
 xdg-user-dirs
 xdg-utils
 xdotool

@@ -1,3 +1,6 @@
-
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+x-scheme-handler/msteams=teams.desktop
+
+[Added Associations]
+text/x-java=visual-studio-code.desktop;

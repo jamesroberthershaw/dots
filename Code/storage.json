@@ -4,6 +4,12 @@
         "entries": [
             {
                 "workspace": {
+                    "id": "4d0cf119e230eeaf0029a13f1cad6e16",
+                    "configPath": "file:///home/jameshershaw/Documents/masters/report/report.code-workspace"
+                }
+            },
+            {
+                "workspace": {
                     "id": "ac7e846cbe3196d28e5e02f9d8bdc4bb",
                     "configPath": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace"
                 }
@@ -25,6 +31,12 @@
             },
             {
                 "folderUri": "file:///home/james/.config/polybar"
+            },
+            {
+                "fileUri": "file:///home/jameshershaw/Documents/azoteq_prep"
+            },
+            {
+                "fileUri": "file:///home/jameshershaw/Downloads/solid_interview/src/solid_interview/main.java"
             },
             {
                 "fileUri": "file:///home/james/.vscode/argv.json"
@@ -88,8 +100,18 @@
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
-                                        "external": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
+                                        "fsPath": "/home/jameshershaw/Documents/masters/report/report.code-workspace",
+                                        "external": "file:///home/jameshershaw/Documents/masters/report/report.code-workspace",
+                                        "path": "/home/jameshershaw/Documents/masters/report/report.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/masters/report/report (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace",
                                         "scheme": "file"
                                     },
@@ -140,6 +162,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jameshershaw/Documents/azoteq_prep",
+                                        "path": "/home/jameshershaw/Documents/azoteq_prep",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/azoteq_prep"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jameshershaw/Downloads/solid_interview/src/solid_interview/main.java",
+                                        "path": "/home/jameshershaw/Downloads/solid_interview/src/solid_interview/main.java",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/solid_interview/src/solid_interview/main.java"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -525,8 +569,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -661,10 +704,6 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
-                    },
-                    {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1037,7 +1076,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1631,15 +1671,15 @@
     "windowsState": {
         "lastActiveWindow": {
             "workspaceIdentifier": {
-                "id": "ac7e846cbe3196d28e5e02f9d8bdc4bb",
-                "configURIPath": "file:///home/jameshershaw/Documents/James_Hershaw_Corigine_technical_assessment/factorial-digits.code-workspace"
+                "id": "4d0cf119e230eeaf0029a13f1cad6e16",
+                "configURIPath": "file:///home/jameshershaw/Documents/masters/report/report.code-workspace"
             },
-            "backupPath": "/home/jameshershaw/.config/Code/Backups/ac7e846cbe3196d28e5e02f9d8bdc4bb",
+            "backupPath": "/home/jameshershaw/.config/Code/Backups/4d0cf119e230eeaf0029a13f1cad6e16",
             "uiState": {
                 "mode": 1,
-                "x": 1005,
+                "x": 15,
                 "y": 53,
-                "width": 900,
+                "width": 1890,
                 "height": 1012
             }
         },

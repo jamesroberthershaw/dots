@@ -11,7 +11,7 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "window.zoomLevel": 1,
     "workbench.colorTheme": "Palenight Theme",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true
 }
